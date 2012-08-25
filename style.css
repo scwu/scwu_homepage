@@ -1,0 +1,119 @@
+header nav{
+	background-color: black;
+	position: fixed;
+	list-style: none;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: none;
+	height: 35px;
+	margin: 0px;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	/* Adds the transparent background */
+	z-index: 10;
+	text-align: center;
+	min-width: 1000px;
+	}
+	
+
+header nav li {
+	display: inline-block;
+	
+}
+
+header nav li a{
+	
+	font-family: 'Century Schoolbook', serif;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 15px;
+	white-space: nowrap;
+	padding-right:2em;
+	padding-left:2em;
+}
+
+nav li a:hover {
+	color: black;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+
+body {
+	background:white;
+	padding: 0px;
+	margin:0px;
+	border: none;
+
+}
+
+body table {
+	padding: 60px 20px 20px 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%
+	display: inline-table;
+	
+}
+
+img {
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+
+img:hover {
+	filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+body h1 {
+   padding-top: 60px;
+   font-family: 'Century Schoolbook', serif; 
+   font-weight: 300;
+   position: relative;
+   top: 0px;
+   left: 30px;
+   font-size: 40px;
+}
+
+body h2 { 
+	padding-top: 0px;
+	font-family: 'Century Schoolbook', serif;
+	font-weight:200;
+	position: relative;
+	top: 0px;
+	left: 20px;
+	font-size: 20px;
+}
+
+body #moreme {
+	font-family: 'Century Schoolbook', serif;
+	font-size: 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%
+
+}
+
+body #crop {
+	text-align: center;
+	margin: 0 auto;
+}
+
+body #moreme #download_resume a{
+	text-decoration: none;
+	font-family: 'Century Schoolbook', serif;
+	color: black;
+}
+
+body #moreme #download_resume a:hover {
+	text-decoration: none;
+	color:gray;
+}

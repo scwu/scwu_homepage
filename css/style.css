@@ -1,0 +1,16 @@
+body div.example {
+	min-width: 2000px;
+}
+
+body div.example img {
+	float:left;
+	margin-left: 20px;
+}
+
+body p.description_example {
+	font-family: 'Century Schoolbook', serif;
+	float: right;
+	margin-right: 20px;
+	width:45%;
+	white-space: nowrap;
+}
