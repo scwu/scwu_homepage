@@ -13,15 +13,17 @@
 
 <header> 
 	<nav>
+		<ul>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">Me</a></li>
 		<li><a href="developer.php">Developer</a></li>
 		<li><a href="photographer.php">Photographer</a></li>
 		<li><a href="resume.php">Resume</a></li>
+		</ul>
 	</nav>
 </header>
-
+<div id="moreme">
 <h1>Sorry, it looks like you've gone to a page that doesn't exist.</h1>
 	<p>Try another link at the above menu?</p>
-
+</div>
 </html>

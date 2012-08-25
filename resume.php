@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="eng">
+<html lang="en">
 <?php>
 	require("header.php");
 ?>
-<body>
 <div id="moreme">
 	<h1> Resume </h1>
-	<script language="JavaScript">
+	<script>
 <!--
 	function autoResize(id){
     var newheight;
