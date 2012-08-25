@@ -92,7 +92,7 @@ body div#moreme iframe#iframe1 {
 }
 
 div#moreme p {
-	font-family: 'Century Schoolbook', serif;
+	font-family: 'Adamina', serif;
 	font-size: 20px;
 	position:relative;
 	padding-left: 60px;
@@ -100,7 +100,7 @@ div#moreme p {
 
 
 body h1 {
-   font-family: 'Century Schoolbook', serif; 
+   font-family: 'Adamina', serif;
    font-weight: 300;
    position: relative;
    left: 30px;
@@ -109,7 +109,7 @@ body h1 {
 
 body h2 { 
 	padding-top: 0px;
-	font-family: 'Century Schoolbook', serif;
+	font-family: 'Adamina', serif;
 	font-weight:200;
 	position: relative;
 	left: 20px;
@@ -129,7 +129,7 @@ body div#crop {
 
 body div#moreme div#download_resume a{
 	text-decoration: none;
-	font-family: 'Century Schoolbook', serif;
+	font-family: 'Adamina', serif;
 	color: black;
 }
 
@@ -152,7 +152,7 @@ body div#home_image img {
 
 
 body div#home_block h1 {
-	font-family: 'Century Schoolbook', serif;
+	font-family: 'Adamina', serif;
 	font-size: 80px;
 	text-decoration: none;
 	position: relative;
@@ -163,7 +163,7 @@ body div#home_block h1 {
 }
 
 body div#home_block p {
-	font-family: 'Century Schoolbook', serif;
+	font-family: 'Adamina', serif;
 	position: relative;
 	text-align: center;
 	color: black;
@@ -178,7 +178,7 @@ body div.example img {
 }
 
 body p.description_example {
-	font-family: 'Century Schoolbook', serif;
+	font-family: 'Adamina', serif;
 	float: right;
 	margin-right: 20px;
 	width:45%;
