@@ -15,7 +15,7 @@ header nav{
 	/* Adds the transparent background */
 	z-index: 10;
 	text-align: center;
-	min-width: 780px;
+	min-width: 800px;
 	}
 	
 header nav ul {
@@ -51,6 +51,7 @@ body {
 	padding: 0px;
 	margin:0px;
 	border: none;
+	text-align: center;
 
 }
 
@@ -149,8 +150,6 @@ body div#home_image img {
 	text-align: center;
 }
 
-
-
 body div#home_block h1 {
 	font-family: 'Adamina', serif;
 	font-size: 80px;
@@ -172,15 +171,33 @@ body div#home_block p {
 	top: -130px;
 }
 
-body div.example img {
-	float:left;
-	margin-left: 20px;
+body div.portfolio {
+	width:1150px;
+	margin: 0 auto;
 }
 
-body p.description_example {
-	font-family: 'Adamina', serif;
-	float: right;
-	margin-right: 20px;
-	width:45%;
+div.example {
+	text-align: left;
+	min-width: 80%;
 }
+
+div.example #dummy {
+		margin-left: 30px;
+	}
+
+p.description_example {
+	float: right;
+	font-family: 'Adamina', serif;
+	margin-right: 60px;
+	padding-top: 80px;
+}	
+	p.description_example a {
+		text-decoration: none;
+		color:gray;
+		font-style: italic;
+	}
+
+
+
+
 

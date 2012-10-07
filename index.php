@@ -9,7 +9,6 @@
 	</div>
 	<div id = "home_block">
 		<h1>Shin-Yuan Clara Wu</h1>
-		<p>I learn.</p>
 	</div>
 </body>
 
