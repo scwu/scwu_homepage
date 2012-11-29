@@ -1,7 +1,6 @@
-
 <?php
 require_once("phpFlickr-3.1/phpFlickr.php"); // path to phpFlickr
-$f = new phpFlickr("74af47014d7e3fdada9da62bad37e011"); // leave the quotes and replace your <your API key> with your API key
+$f = new phpFlickr("DUMMY API KEY"); // leave the quotes and replace your <your API key> with your API key
  
 // you will get this number when you go to your photoset home page on flickr you will find this number in the web address
 // here is an example http://www.flickr.com/photos/33174510@N00/sets/72157625958411834/
