@@ -1,0 +1,703 @@
+/*
+
+Theme Name: Typominima
+Theme URI: 
+Description: A mininal, elegant, typography based WordPress theme
+Version: 1.0
+Author: QBKL.net & Blogsessive.com
+Author URI: http://qbkl.net
+Tags: minimal, typography, elegant, simple
+
+*/
+
+
+/* 1. Generic */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: normal normal 14px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	line-height: 22px;
+	color: #555;
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	font-weight: normal;
+	color: #777;
+}
+
+h1 { font-size: 44px; line-height: 66px; }
+h2 { font-size: 36px; line-height: 54px; }
+h3 { font-size: 28px; line-height: 42px; }
+h4 { font-size: 24px; line-height: 36px; }
+h5 { font-size: 18px; line-height: 27px; }
+h6 { font-size: 16px; line-height: 24px; font-weight: bold; color: #999;}
+
+a {
+	color: #ba954f;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover { color: #dabc83; }
+
+a img { border: 0; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, 
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#wrap { width: 770px; margin: 0 auto; padding: 30px 0;}
+
+.clear  { clear: both; }
+
+.left { float: left!important; }
+
+.right { float: right!important; }
+
+.mt40 { margin-top: 40px; }
+
+
+/* 2. Header */
+
+#header {
+	width: 770px;
+	background: url(img/deco-up-med.gif) no-repeat top center;
+}
+
+.rss-link { padding-top: 5px; }
+
+.rss-link a {
+	padding-left: 17px;
+	background: url(img/i-rss.gif) no-repeat center left;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#searchform {
+	margin: 0;
+	padding: 0;
+	background: #f5f5f5;
+}
+
+#searchform input {
+	width: 130px;
+	padding: 4px 5px;
+	font: normal normal 13px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	color: #777;
+	background: none;
+	border: 0;
+}
+
+#searchform button {
+	padding: 3px 5px;
+	font: normal normal 11px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	color: #ba954f;
+	text-transform: uppercase;
+	border: 0;
+	background: none;
+	cursor: pointer;
+}
+
+#searchform button:hover {
+	color: #dabc83;
+}
+
+
+/* 2.1 Header: Navigation */
+
+#nav {
+	margin-top: 12px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#nav ul li {
+	margin: 0 20px;
+	padding: 0;
+	display: inline;
+	font-size: 11px;
+	text-transform: uppercase;
+	position: relative;
+	text-align: left;
+	z-index: 900;
+}
+
+#nav ul li a {
+	padding: 13px 0 13px 0;
+	display: inline-block;
+}
+
+#nav ul li ul {
+	clear: both;
+	width: 170px;
+	left: -9999px;
+	margin: 0;
+	padding: 0;
+	top: 32px;
+	position: absolute;
+	background: #fff;
+	z-index: 1000;
+	text-align: left;
+}
+
+#nav ul li:hover ul {
+	left: -9px;
+}
+
+#nav li li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font-size: 10px;
+}
+
+#nav li li a {
+	display: block;
+	padding: 3px 9px;
+	line-height: 16px;
+}
+
+/* 2.2 Sitename */
+
+#sitename {
+	padding: 40px 0 110px 0;
+	text-align: center;
+	background: url(img/deco-down-big.gif) no-repeat bottom center;
+}
+
+#sitename a {
+	font-size: 56px;
+	line-height: 70px;
+}
+
+#sitename span {
+	font-size: 20px;
+	line-height: 30px;
+	color: #888;
+}
+
+
+/* 3. Content */
+
+#content {
+	width: 770px;
+	margin-top: 40px;
+}
+
+.archive-title {
+	display: block;
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
+	background: #f5f5f5;
+	text-align: center;
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+
+.archive-title h5 {
+	margin: 5px 0 !important;
+	padding: 0!important;
+}
+
+/* 3.1 Posts */
+
+.post {
+	width: 770px;
+	padding-bottom: 65px;
+	margin-bottom: 40px;
+	background: url(img/deco-down-med.gif) no-repeat bottom center!important;
+}
+
+.post-title {
+	display: block;
+	padding-bottom: 20px;
+	margin: 20px 0 30px 0;
+	text-align: center;
+	background: url(img/deco-casual-small.gif) no-repeat bottom center;
+}
+
+.post-title h1,
+.post-title h2 {
+	font-size: 36px;
+	line-height: 54px;
+	margin: 0;
+	padding: 0;
+}
+
+/* 3.2 Post content */
+
+.post-content {
+	width: 490px;
+	float: left;
+	margin-left: 20px;
+}
+
+.full-width {
+	width: 730px!important;
+}
+
+.post-content h1, 
+.post-content h2, 
+.post-content h3, 
+.post-content h4 {
+	margin: 30px 0;
+	padding: 0;
+}
+
+.post-content h5, 
+.post-content h6 {
+	margin: 20px 0;
+	padding: 0;
+}
+
+.post-content a { text-decoration: underline; }
+
+.post-content .intro {
+	font: italic normal 18px Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+	line-height: 28px;
+	color: #888;
+}
+
+.post-content blockquote {
+	padding: 22px 20px 10px 20px;
+	margin: 20px 0;
+	font-size: 18px;
+	line-height: 28px;
+	color: #888;
+	background: url(img/deco-quote.gif) no-repeat top center;
+	border-bottom: 1px solid #ddd;
+}
+
+.post-content table.full-width { width: 100%!important; }
+
+.post-content table th {
+	background: #eee;
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: left;
+	color: #888;
+}
+
+.post-content table td {
+	padding: 5px 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	text-align: left;
+}
+
+.post-content table tr:hover { background: #fafafa; }
+
+.post-content table tr:hover td:hover { border-bottom: 1px solid #aaa; }
+
+.alignright,
+img.alignright {
+	display: block;
+	float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.alignleft,
+img.alignleft {
+	display: block;
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.aligncenter,
+img.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+
+img.alignright,
+img.alignleft,
+img.aligncenter {
+	padding: 9px;
+	border: 1px solid #ddd;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.wp-caption {
+	padding: 9px;
+	border: 1px solid #ddd;
+}
+
+.wp-caption-text {
+	margin: 1px 0 0 0;
+	padding: 3px 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #888;
+	background: #f5f5f5;
+}
+
+.pagination {
+	padding-top: 10px;
+	display: block;
+	font-size: 12px;
+	word-spacing: 5px;
+	border-top: 1px dotted #eee;
+}
+
+.pagination strong {
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+/* 3.3 Post metas */
+
+.post-metas {
+	width: 200px;
+	margin: 5px 20px 0 0;
+	float: right;
+	font-size: 11px;
+}
+
+.post-metas a:hover { text-decoration: underline; }
+
+.post-metas dl {
+	padding: 5px 0 15px 0;
+	border-top: 1px solid #ddd;
+	background: url(img/deco-casual-small.gif) no-repeat bottom center;
+}
+
+.post-metas dl dt {
+	padding: 5px 10px 0 10px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #999;
+}
+
+.post-metas dl dt span {
+	display: block;
+	border-bottom: 1px dotted #ddd;
+}
+
+.post-metas dl dd {
+	margin: 0;
+	padding: 3px 10px 5px 10px;
+	color: #777;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+.post-metas dl dd.author-description {
+	width: 180px;
+	padding-top: 10px;
+	display: block;
+	overflow: hidden;
+	font-size: 12px;
+	text-transform: none;
+}
+
+.post-metas dl dd.author-description a.author-contact {
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.post-metas dl dd.author-description img {
+	width: 50px;
+	height: 50px;
+	padding: 4px;
+	margin: 3px 10px 5px 0;
+	float: left;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+/* 3.4 Page navigation */
+
+.page-navigation {
+	width: 730px;
+	display: block;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(img/deco-casual-small.gif) no-repeat center center;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.page-navigation a { background: #fff; }
+
+.page-navigation a:hover { text-decoration: underline; }
+
+.page-navigation .left a {
+	border-right: 1px solid #ddd;
+	padding-right: 20px;
+}
+
+.page-navigation .right a {
+	border-left: 1px solid #ddd;	
+	padding-left: 20px;
+}
+
+/* 3.5 Comments */
+
+.section-header {
+	margin: 0;
+	padding: 0 0 10px 0;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.comments-wrap {
+	width: 770px;
+	padding: 20px 0;
+	margin: 0 0 40px 0;
+	display: block;
+	background: url(img/deco-casual-small.gif) no-repeat bottom center;
+}
+
+.comment-list {
+	width: 770px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.comment-list li {
+	width: 730px;
+	overflow: hidden;
+	border-bottom: 1px dotted #eee;
+	padding: 20px;
+	margin: 0;
+}
+
+.comment-list li p {
+	margin: 15px 0 0 0;
+}
+
+.comment-author-image {
+	width: 50px;
+	margin-right: 30px;
+	float: left;
+}
+
+.comment-author-image img {
+	background: #fff;
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+
+.comment-list li.bypostauthor .comment-author-image img {
+	background: #444;
+	padding: 5px;
+	border: 0;
+}
+
+.comment-details {
+	width: 650px;
+	padding-top: 3px;
+	float: right;
+	color: #888;
+}
+
+.comment-meta {
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.comment-author {
+	text-transform: uppercase;
+}
+
+.comment-text {
+	color: #555;
+}
+
+.comment-text a {
+	text-decoration: underline;
+}
+
+.comment-alert {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.comment-feed {
+	margin: 0;
+	padding-bottom: 15px!important;
+	border: 0!important;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.comment-feed a {
+	padding-left: 17px;
+	background: url(img/i-rss.gif) no-repeat center left;
+}
+
+.comment-form {
+	width: 730px;
+	padding: 20px 20px 0 20px;
+}
+
+.comment-form input, 
+.comment-form textarea {
+	width: 490px;
+	padding: 10px;
+	background: #f5f5f5;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+	font: normal normal 13px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	color: #777;
+	vertical-align: top;
+}
+
+.comment-form input:hover, 
+.comment-form textarea:hover {
+	border-bottom: 1px solid #aaa;
+}
+
+.comment-form label {
+	font-size: 10px;
+	color: #888;
+	text-transform: uppercase;
+	padding-left: 30px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.comment-form button {
+	padding: 10px;
+	background: #dabc83;
+	border: 0;
+	font: normal normal 12px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.comment-form button:hover {
+	background: #ba954f;
+}
+
+/* 4. Widget area */
+
+.widget-area {
+	margin-top: 70px;
+	padding: 25px 20px 30px 20px;
+	border-top: 1px solid #ddd;
+	background: url(img/deco-casual-small.gif) no-repeat bottom center;
+}
+
+.widgets-wrap {
+	width: 730px;
+	padding: 5px 0 10px 0;
+	overflow: hidden;
+	background: url(img/bg-widgets-wrap.gif) repeat-y;
+}
+
+.footer-widget-box {
+	width: 210px;
+	float: left;
+	margin-right: 50px;
+	font-size: 12px;
+}
+
+#widget-box-3 { margin-right: 0; }
+
+.footer-widget-box h2,
+.footer-widget-box .widgettitle {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.footer-widget-box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-widget-box li {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-widget-box ul ul {	
+	border-top: 1px dotted #ddd;
+}
+
+.footer-widget-box li li {
+	border-bottom: 1px dotted #ddd;
+}
+
+.footer-widget-box ul ul {	
+	border: 0;
+	margin-bottom: 5px;
+}
+
+.footer-widget-box li li li {
+	padding: 0 0 0 20px;
+	border: 0;
+}
+
+.footer-widget-box .widget {
+	margin-bottom: 30px;
+}
+
+.footer-widget-box .widget:last-child {
+	margin-bottom: 0!important;
+}
+
+/* 5. Footer */
+
+#footer {
+	font-size: 10px;
+	color: #999;
+	text-transform: uppercase;
+	line-height: 16px;
+	margin-top: 60px;
+	background: url(img/deco-footer.gif) no-repeat center center;
+	padding: 11px 0;
+}
+
+#footer .right {
+	text-align: right;
+}
