@@ -150,6 +150,9 @@
         <p class= "email">
              <input type="text" name="email" value = "email" onFocus="this.value=''; return false">
         </p>
+        <p class="url">
+          <input name="url" />
+        </p>
         <p class = "comments">
             <textarea  name="comments" value = "comments"></textarea>
         </p>
