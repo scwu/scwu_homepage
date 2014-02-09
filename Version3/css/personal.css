@@ -85,7 +85,7 @@ html, body {
   margin-right: auto;
 }
 
-.sub-content #projects {
+.sub-content .center {
   display: table;
   margin: 0 auto;
 }
@@ -115,4 +115,25 @@ html, body {
   font-weight: 100;
   font-size: 30px;
   color: #1071c3;
+}
+.sub-content .activity {
+  display: table;
+  margin: 0 auto;
+  width: 700px;
+  background-color: #383b42;
+  margin: 20px;
+  box-sizing: border-box;
+}
+.sub-content .activity.inverse {
+  background-color: white;
+  border: 5px solid #383b42;
+}
+.sub-content .activity p {
+  color: white;
+  font-weight: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.sub-content .activity.inverse p {
+  color: #383b42;
 }
