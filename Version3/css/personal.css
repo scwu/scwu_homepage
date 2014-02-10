@@ -33,12 +33,15 @@ html, body {
 
 #main-content {
   width: 70%;
+  margin-bottom: 90px;
+  margin-top; 90px;
 }
 
 .sub-content {
-  margin: 50px 60px 0px 60px;
+  margin: 0px 40px 0px 40px;
   float: left;
-  width: 87.5%;
+  width: 91%;
+  box-sizing: border-box;
 }
 
 .sub-content h2{
@@ -75,14 +78,22 @@ html, body {
   margin-top: 60px;
 }
 
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+
 #nav li {
   padding: 2px;
 }
 
 #map-canvas {
+  z-index: 0;
+}
+
+.long {
   height: 300px;
   width: 90%;
-  z-index: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,6 +107,7 @@ html, body {
   text-align: left;
   margin-top: 15px;
   margin-bottom: 15px;
+  box-sizing:border-box;
 }
 .image img {
   display: block;
@@ -114,9 +126,13 @@ html, body {
 }
 .sub-content .activity {
   background-color: #383b42;
-  margin: 20px;
   width: 90%;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .sub-content .activity.inverse {
   background-color: white;
   border: 5px solid #383b42;
@@ -129,4 +145,31 @@ html, body {
 }
 .sub-content .activity.inverse p {
   color: #383b42;
+}
+
+.img{
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  box-sizing: border-box; 
+}
+
+.double-line {
+  width: 200px;
+  border-top: 3px solid #1071c3;
+  border-bottom: 3px solid #1071c3;
+  height: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: table;
+}
+
+#projects, #about {
+  margin-bottom: -40px;
+}
+
+#about {
+  margin-top: 40px;
 }
