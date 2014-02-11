@@ -108,6 +108,9 @@ html, body {
   margin-top: 15px;
   margin-bottom: 15px;
   box-sizing:border-box;
+  vertical-align: top;
+  display: inline-block;
+  height:550px;
 }
 .image img {
   display: block;
