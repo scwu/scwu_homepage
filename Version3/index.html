@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/personal.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&.js"></script>
+      </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="main-photo" class="pull-left">
+          <div id="title">
+            <h1>CLARA</br>WU</h1>
+          </div>
+          <ol id="nav">  
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#contact">GET IN TOUCH</a></li>
+          </ol>
+        </div>
+        <div id="main-content" class="pull-right">
+          <div class="sub-content" id="about">
+            <h2>Hello, I'm Clara Wu.</h2>
+            <p>I'm a junior at the University of Pennsylvania, majoring in <a target="_blank" href="http://nets.upenn.edu">NETS</a>. In my free time, I build <a target="_blank" href="http://github.com/scwu">cool shit</a>, geek about <a  target="_blank" href="http://log.clarawu.com">art history, Ira Glass and Corgis</a>, and discuss <a href="http://twitter.com/sclarawu" target="_blank">gender, politics and society</a> with anyone who is down. I take photos about <a
+              href="http://flickr.com/clarrra" target="_blank">things</a> and
+            <a href="http://claraw.exposure.so" target="_blank">people</a>. I'm passionate about
+            learning, health-tech and being a non-shitty person.</p>
+          </div>
+        </div>
+      <div id="main-content" class="pull-right">
+        <div class="double-line"></div>
+      </div>
+      <div id="main-content" class="pull-right">
+          <div id='map-canvas' class="long"></div>
+      </div>
+      <div id="main-content" class="pull-right">
+        <div class="double-line"></div>
+      </div>
+      <div id="main-content" class="pull-right">
+         <div class="sub-content">
+          <div class="center" id="projects">
+          <div class="item col-md-6">
+            <div class="image">
+              <img class="img-responsive" src="img/knock.png">
+            </div>
+            <h3>Knock Factor Authentication</h3>
+            <p class="desc"><a href="http://peytn.com/knock-factor/" target="_blank">Knock Factor Authentication</a> is a YHack project, and then a hackNY reunion demo, that makes entering your two factor authentication as easy as "knocking" on your phone. Linked with Google Auth, a server on your computer running in the program and a Chrome extension - no more typing in annoying codes. Completed web portion of code.</p>
+        </div>
+        <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/3d.png">
+          </div>
+          <h3>3D Text Generator</h3>
+          <p class="desc"><a href="https://github.com/codejoust/3dtexter" target="_blank">3D Text Generator</a> is a PennApps project meant just for fun. We used 3D.js to create a tool that made it easy to build 3D text graphics with customizations that also animate, and then easily export this text as a GIF. During the hackathon, I designed the website and wrote the front-end code that enabled customization of fonts and colors.</p>
+        </div>
+        <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/wicssite.png">
+          </div>
+          <h3>Penn Women in Computer Science website</h3>
+          <p class="desc"><a href="http://pennwics.herokuapp.com" target="_blank">The Women in Computer Science</a> site was built in Django and integrated both the Facebook and Google Calendar API to make it easy to keep the site up to date. I utilized Django Admin to make entering new event flyers and posting Facebook events very simple. I worked full stack and designed the site. </p>
+        </div>
+        <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/dropbox.png">
+          </div>
+           <h3>Dropbox Dinner Invitation</h3>
+          <p class="desc"><a href="http://pennwics.herokuapp.com/dropbox/" target="_blank">The Dropbox Dinner Invitation</a> idea was formulated when Dropbox asked WiCS to do an event. At the time, I had been obsessively interested in letter press and wedding invitation and decided to design and write an invite under this specific theme, gaining inspiration for what we see today as a formalized print invitation. I ripped out Google Form code to integrate it into the invite.</p>
+        </div>
+        <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/when2meet.png">
+          </div>
+          <h3>When2Meet Version 2.0</h3>
+          <p class="desc"><a href="https://github.com/scwu/fb-hackathon-s2013" target="_blank">When2Meet</a> is a webapp built to decide what and when to do with your friends when you are trying to meet up. It uses a combination of a voting system and people's availability as decided via Google Calendar to determine the most popular time and place to do a "hangout". The final result is emailed out to all participants. Built in AngularJS and Node. Did design and contributed
+          full-stack.</p>
+        </div>
+    <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/timecapsule.png">
+       </div>
+          <h3>Penn WiCS Time Capsule</h3>
+          <p class="desc"><a href='http://timecapsule.clarawu.com/' target="_blank">The Women in Computer Science Time Capsule</a> was built for a project to bury a Penn Engineering time capsule within the Engineering building. I wanted to build something that represented our generation in both content and medium. I wrote and designed a website that represented our organization's hopes for the future and saved it onto a USB drive to be buried. </p>
+        </div>
+             <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/transparency.png">
+          </div>
+          <h3>Transparency.io</h3>
+          <p class="desc"><a href="http://transparencyio.herokuapp.com" target="_blank">Transparency.io</a> is built in Django to increase corporate backing transparency. It is a search engine that allows you to search for corporations and then find out how much money was donated from that particular organization to different poliical parties, bills and organizations. It is broken down in graphical charts - made with Chart.JS.</p>
+        </div>
+        <div class="item col-md-6">
+          <div class="image">
+            <img class="img-responsive" src="img/penncs.png">
+          </div>
+          <h3>Penn Computer Science 2013 Summer Plans</h3>
+          <p class="desc"><a href="http://penncs2013.herokuapp.com" target="_blank">Penn Summer Plans</a> was built in Django, D3.js and BackboneJS and utilized the LinkedIn API to extrapolate and visualize summer and full time plans for Penn CS students in 2013. I visualized distribution of students throughout the country as well as average company size and impact of industries on each other, etc.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div id="main-content" class="pull-right">
+        <div class="double-line"></div>
+      </div>
+    <div id="main-content" class="pull-right">
+       <div class="sub-content" id="resume">
+           <div class="center">
+             <a href="http://labs.pennapps.com" class="activity" target="_blank">
+            <div id="labs" class="activity">
+              <p>Engineering Lead of PennApps Labs</p>
+            </div>
+            </a>
+            <a href="http://pennwics.herokuapp.com/" class="activity" target="_blank">
+            <div id="wics" class="activity">
+               <p>Women in Computer Science Board</p>
+            </div>
+            </a>
+            <a target="_blank" class="activity" href="http://hackny.org">
+            <div id="hackny" class="activity">
+              <p>HackNY Fellow, Class of 2013</p>
+            </div>
+            </a>
+            <a class="activity" href="http://tumblr.com" target="_blank">
+            <div id="tumblr"class="activity">
+              <p>Software Engineering Intern @ Tumblr</p>
+            </div>
+            </a>
+            <a class="activity" href="http://summerschool.vc" target="_blank">
+            <div id="lerer" class="activity">
+              <p>Lerer Ventures Summer School Fellow, 2013</p>
+            </div>
+            </a>
+            <a class="activity" href="http://www.solvemedia.com" target="_blank">
+            <div id="solve" class="activity">
+              <p>Software Development Intern @ Solve Media</p>
+            </div>
+            </a>
+            <a class="activity" href="https://www.dropbox.com/s/yuuaa1c3iolwrop/clara-wu-online.pdf" target="_blank">
+            <div class="activity inverse">
+              <p>Download Resume</p>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div id="main-content" class="pull-right">
+        <div class="double-line"></div>
+      </div>
+      <div id="main-content" class="pull-right">
+        <div class="sub-content" id="contact">
+ <img src="img/me.png" class="img"/>
+          <p>Want to chat? Send me a <a href="mailto:s.clara.wu@gmail.com" target="_top">message</a>. I love meeting new people. You can also find me on <a href="http://facebook.com/s.clara.wu" target="_blank">facebook</a>, <a target="_blank" href="http://twitter.com/sclarawu">twitter</a>, <a href="http://github.com/scwu">github</a>, <a target="_blank" href="http://instagram.com/sclarawu">instagram</a>, <a href="http://www.linkedin.com/in/sclarawu/" target="_blank">linkedin</a> and <a href="http://log.clarawu.com" target="_blank">tumblr</a>.</p>
+    </div>       
+
+
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
