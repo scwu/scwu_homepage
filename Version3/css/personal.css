@@ -12,6 +12,7 @@ html, body {
   background-position:center top; 
   background-size: cover;
   position: fixed;
+  z-index: 600;
 }
 
 #title {
@@ -88,6 +89,7 @@ html, body {
 }
 
 #map-canvas {
+  margin-bottom: 30px;
   z-index: 0;
 }
 
@@ -176,3 +178,34 @@ html, body {
 #about {
   margin-top: 40px;
 }
+
+#quotes p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+  #main-content {
+    clear: both;
+    width: 100%;
+  }
+  #main-photo {
+    position: absolute;
+    top: 10px;
+    height: 0px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #title {
+    display: none;
+  }
+  ol#nav {
+    color: black;
+    width: 90%;
+  }
+  #nav li {
+    background-color:#383b42;
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
